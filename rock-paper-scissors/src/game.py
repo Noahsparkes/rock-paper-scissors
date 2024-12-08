@@ -9,6 +9,8 @@ while running:
 
     while player not in options:
         player = input("Enter a choice (rock, paper, scissors): ")
+        if player not in options:
+            print("Invalid choice.Pleae try again.")
 
     print(f"player: {player}")
     print(f"computer: {computer}")
@@ -31,6 +33,24 @@ while running:
 
 
 print("thanks for playing")
+
+
+##scoreboard
+player_score = 0
+computer_score = 0
+ties = 0
+
+#Update scores based on the game outcome
+if player == computer:
+    ties += 1
+elif (player == "rock" and computer == "scissors") or \
+     (player == "paper" and computer == "rock") or \
+     (player == "scissors" and computer == "paper"):
+    player_score += 1
+else:
+    computer_score += 1
+
+print(f"Score - You: {player_score}, Computer: {computer_score}, Ties: {ties}")
 
 
 
