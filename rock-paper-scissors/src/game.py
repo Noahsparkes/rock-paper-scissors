@@ -67,3 +67,12 @@ print(f"Score - You: {player_score}, Computer: {computer_score}, Ties: {ties}")
 ## git add game.py
 ## git commit -m "update game.py"
 ## git push origin main
+
+# Steps now:
+# 1. Create an app.py file and add flask to it.
+# 2. Create a route to the game.py file.
+# 3. Create a route to the index.html file.
+# 4. Create a route to the style.css file.
+# 5. Create a route to the script.js file.
+
+# DevOps steps next!
