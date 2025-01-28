@@ -1,0 +1,114 @@
+
+F/Users/noah/Personal project 23'/My_portfolio/My_portfolio/src/App.cssç/* 
+:root {
+  --base-color: #ffffff;
+  --text-color: #121212;
+  --accent-color: #9c27b0; /* Example light accent */
+  --input-color: #121212;
+}
+
+[data-theme="dark"] {
+  --base-color: #1F2937;
+  --text-color: #f2f2f2;
+  --accent-color: #503050;
+  
+}
+* {
+  cursor:none;
+}
+
+/* Apply variables */
+html, body {
+  background-color: #ffffff;
+  background-color: var(--base-color);
+  color: #121212; 
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  cursor: none; 
+}
+.cursor-dot, .cursor-outline{
+  cursor: none !important;
+}
+
+
+
+
+a {
+  color: var(--accent-color);
+}
+
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --base-color: #1F2937;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --base-color: #ffffff;
+  }
+}
+
+
+/* might be delete-able */
+.read-the-docs {
+  color: #888;
+}
+
+body[data-theme="dark"] input {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+
+body[data-theme="dark"] input:focus {
+  border-color: #ffffff !important;
+}
+
+body[data-theme="dark"] textarea {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+
+body[data-theme="dark"] textarea:focus {
+  border-color: #ffffff !important;
+}  */ç"(34a19e9925340a9033f3def9b4897f4d11cb8796*-/Users/noah/Personal project 23'/My_portfolio2Sfile:///Users/noah/Personal%20project%2023%27/My_portfolio/My_portfolio/src/App.css::file:///Users/noah/Personal%20project%2023%27/My_portfolio

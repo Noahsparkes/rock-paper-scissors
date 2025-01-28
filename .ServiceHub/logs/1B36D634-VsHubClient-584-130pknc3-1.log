@@ -1,0 +1,235 @@
+﻿05/14/2024 18:31:12 South Africa Standard Time : Information : Local timezone is (UTC+02:00) South Africa Standard Time (Maseru)
+05/14/2024 18:31:18 South Africa Standard Time : Information : VsHubClient-hubController write: Content-Length: 107
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":584}]}
+05/14/2024 18:31:19 South Africa Standard Time : Information : VsHubClient-hubController read: Content-Length: 434
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://5983751B95","ControllerConfig":{"Executable":"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["b60e070f5b"],"PipeName":"b60e070f5b"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+05/14/2024 18:31:19 South Africa Standard Time : Information : Connected to Hub Controller's client watch 'net.pipe://5983751B95
+05/14/2024 18:31:21 South Africa Standard Time : Information : VsHubClient-hubController write: Content-Length: 1410
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64\",\"entryPoint\":{\"assemblyPath\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.ProjectTreeProviderFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/noah/.ServiceHub/b60e070f5b/8a48b7cdc4"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+05/14/2024 18:31:21 South Africa Standard Time : Information : VsHubClient-hubController write: Content-Length: 1409
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.TestWindow.VSCode.Service","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.TestWindow.VSCode.Service":"{\"name\":null,\"host\":\"dotnet\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64\",\"entryPoint\":{\"assemblyPath\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll\",\"fullClassName\":\"Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/noah/.ServiceHub/b60e070f5b/5b8cffe46d"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}Content-Length: 1387
+
+{"jsonrpc":"2.0","id":5,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.LaunchConfigurationService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64\",\"entryPoint\":{\"assemblyPath\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/noah/.ServiceHub/b60e070f5b/c347aaffaa"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+05/14/2024 18:31:23 South Africa Standard Time : Information : VsHubClient-hubController write: Content-Length: 1455
+
+{"jsonrpc":"2.0","id":6,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64\",\"entryPoint\":{\"assemblyPath\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.ProjectInitializationStatusServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/noah/.ServiceHub/b60e070f5b/06806fdcc8"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+05/14/2024 18:31:32 South Africa Standard Time : Information : VsHubClient-hubController read: Content-Length: 161
+
+{"jsonrpc":"2.0","id":6,"result":{"RequestId":"8d585cd9-987f-4506-9427-5af9a12fbdd9","PipeName":"/Users/noah/.ServiceHub/b60e070f5b/ef9b024872","IsEmpty":false}}Content-Length: 161
+
+{"jsonrpc":"2.0","id":5,"result":{"RequestId":"24adff09-d2ab-4866-a4f0-873aeb483850","PipeName":"/Users/noah/.ServiceHub/b60e070f5b/4d4e37e06e","IsEmpty":false}}Content-Length: 161
+
+{"jsonrpc":"2.0","id":3,"result":{"RequestId":"ce0cebc8-cec3-4f43-ad8f-c4ddd7fc1d7f","PipeName":"/Users/noah/.ServiceHub/b60e070f5b/7c3dac2c88","IsEmpty":false}}
+05/14/2024 18:31:32 South Africa Standard Time : Information : Disposing ServiceBroker server '/Users/noah/.ServiceHub/b60e070f5b/8a48b7cdc4'.
+05/14/2024 18:31:32 South Africa Standard Time : Information : Disposing ServiceBroker server '/Users/noah/.ServiceHub/b60e070f5b/06806fdcc8'.
+05/14/2024 18:31:32 South Africa Standard Time : Information : Disposing ServiceBroker server '/Users/noah/.ServiceHub/b60e070f5b/c347aaffaa'.
+05/14/2024 18:31:34 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":1,"runtime":2,"runtimeVersion":"8.0.4"}}]}
+05/14/2024 18:31:34 South Africa Standard Time : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":1,"runtime":2,"runtimeVersion":"8.0.4"}}]}
+05/14/2024 18:31:34 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":1,"runtime":2,"runtimeVersion":"8.0.4"}}]}
+05/14/2024 18:31:34 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+05/14/2024 18:31:34 South Africa Standard Time : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+05/14/2024 18:31:34 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+05/14/2024 18:31:34 South Africa Standard Time : Information : VsHubClient-hubController read: Content-Length: 161
+
+{"jsonrpc":"2.0","id":4,"result":{"RequestId":"3027d02e-f3d5-4c22-80b6-439c2cd2a7c6","PipeName":"/Users/noah/.ServiceHub/b60e070f5b/c4f2d9f453","IsEmpty":false}}
+05/14/2024 18:31:35 South Africa Standard Time : Information : Disposing ServiceBroker server '/Users/noah/.ServiceHub/b60e070f5b/5b8cffe46d'.
+05/14/2024 18:31:36 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:36 South Africa Standard Time : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:36 South Africa Standard Time : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"bfa7597a-3a78-4399-a179-d73b84815862","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/6a97a269d6224161b76fbd07f467b78d"}}
+05/14/2024 18:31:36 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"76a860b9-f755-434f-9fcb-b8c488f3107b","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/6a0efe51dff94ec398d29ad93f294797"}}
+05/14/2024 18:31:36 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:36 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"a0d36806-60ae-4827-9d5b-e267193a5125","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/f0fdad72fa334700ab97e57f3be3e598"}}
+05/14/2024 18:31:36 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer read: Content-Length: 203
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.CompositionService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:36 South Africa Standard Time : Information : VsHubClient-hubController write: Content-Length: 1407
+
+{"jsonrpc":"2.0","id":7,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.CompositionService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.ProjectSystem.CompositionService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64\",\"entryPoint\":{\"assemblyPath\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/noah/.ServiceHub/b60e070f5b/4297bec754"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+05/14/2024 18:31:36 South Africa Standard Time : Information : VsHubClient-hubController read: Content-Length: 161
+
+{"jsonrpc":"2.0","id":7,"result":{"RequestId":"6a7a84a2-d89a-4442-8565-17df877fdf2a","PipeName":"/Users/noah/.ServiceHub/b60e070f5b/dab208c105","IsEmpty":false}}
+05/14/2024 18:31:36 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer write: Content-Length: 145
+
+{"jsonrpc":"2.0","id":4,"result":{"requestId":"6a7a84a2-d89a-4442-8565-17df877fdf2a","pipeName":"/Users/noah/.ServiceHub/b60e070f5b/dab208c105"}}
+05/14/2024 18:31:36 South Africa Standard Time : Information : Disposing ServiceBroker server '/Users/noah/.ServiceHub/b60e070f5b/4297bec754'.
+05/14/2024 18:31:36 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":1,"runtime":2,"runtimeVersion":"8.0.4"}}]}
+05/14/2024 18:31:36 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+05/14/2024 18:31:36 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:36 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"97fb2801-50fd-48ef-987c-611aadf08daf","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/91279276b5ab4a5dbe85173e85231b7f"}}
+05/14/2024 18:31:37 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.ComponentExportsService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}Content-Length: 197
+
+{"jsonrpc":"2.0","id":5,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.NoDelay.EnvironmentService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:37 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":4,"result":{"requestId":"90af5845-d5e2-4abe-9ff1-89c74db6e8af","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/03900419658c4b329c34cd07df0734ea"}}Content-Length: 181
+
+{"jsonrpc":"2.0","id":5,"result":{"requestId":"ffc6075d-3d0a-452d-b2e3-f51b4ead603e","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/5227e5bbf0aa4cd48378be891714ffb5"}}
+05/14/2024 18:31:37 South Africa Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":1,"runtime":2,"runtimeVersion":"8.0.4"}}]}
+05/14/2024 18:31:37 South Africa Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+05/14/2024 18:31:40 South Africa Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:40 South Africa Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"3b17777b-d8ff-4bcc-83e0-cfcc0a1d5d5f","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/8035c4fee0bc4c08a76ffa51d18aeb5e"}}
+05/14/2024 18:31:43 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 242
+
+{"jsonrpc":"2.0","id":6,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.NuGetSolutionRestoreService","version":"0.1"},{"activationArguments":{"needEvents":"True"},"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:43 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":6,"result":{"requestId":"183ca2d2-0516-4ec3-96e0-aef2f15e1840","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/9c89944c23584694a79ba97558c723c5"}}
+05/14/2024 18:31:43 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 204
+
+{"jsonrpc":"2.0","id":7,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.ActiveDocumentsInformationService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:43 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":7,"result":{"requestId":"2d38b89a-ece0-4e19-8676-5c42aa79e24f","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/02d7b64cc6d74326aba976192127960c"}}
+05/14/2024 18:31:44 South Africa Standard Time : Information : VsHubClient-hubController write: Content-Length: 1480
+
+{"jsonrpc":"2.0","id":8,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service":"{\"name\":null,\"host\":\"dotnet\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64\",\"entryPoint\":{\"assemblyPath\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll\",\"fullClassName\":\"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/noah/.ServiceHub/b60e070f5b/f73dc62975"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+05/14/2024 18:31:44 South Africa Standard Time : Information : VsHubClient-hubController read: Content-Length: 161
+
+{"jsonrpc":"2.0","id":8,"result":{"RequestId":"7786860a-1c1f-4c6d-8f95-579cddb50350","PipeName":"/Users/noah/.ServiceHub/b60e070f5b/2887b48b59","IsEmpty":false}}
+05/14/2024 18:31:44 South Africa Standard Time : Information : Disposing ServiceBroker server '/Users/noah/.ServiceHub/b60e070f5b/f73dc62975'.
+05/14/2024 18:31:44 South Africa Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":1,"runtime":2,"runtimeVersion":"8.0.4"}}]}
+05/14/2024 18:31:44 South Africa Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+05/14/2024 18:31:44 South Africa Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:44 South Africa Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"558f847e-1a6e-4977-93a9-9b627b242c83","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/68f551b118fc4c5a98a1d9c80c9cad55"}}
+05/14/2024 18:31:45 South Africa Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service-RemoteServiceBrokerServer read: Content-Length: 293
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","version":"0.2"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}],"traceparent":"00-9bddd5d4bf45df49b3f586452552343d-c58183b7d4ac084a-00"}
+05/14/2024 18:31:45 South Africa Standard Time : Information : VsHubClient-hubController write: Content-Length: 1446
+
+{"jsonrpc":"2.0","id":9,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","Version":"0.2"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64\",\"entryPoint\":{\"assemblyPath\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/noah/.ServiceHub/b60e070f5b/bebc7d2cce"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+05/14/2024 18:31:45 South Africa Standard Time : Information : VsHubClient-hubController read: Content-Length: 161
+
+{"jsonrpc":"2.0","id":9,"result":{"RequestId":"dcae7f2e-8ae4-4980-9232-c3635f0ecb09","PipeName":"/Users/noah/.ServiceHub/b60e070f5b/7ec0b7d58e","IsEmpty":false}}
+05/14/2024 18:31:45 South Africa Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service-RemoteServiceBrokerServer write: Content-Length: 145
+
+{"jsonrpc":"2.0","id":4,"result":{"requestId":"dcae7f2e-8ae4-4980-9232-c3635f0ecb09","pipeName":"/Users/noah/.ServiceHub/b60e070f5b/7ec0b7d58e"}}
+05/14/2024 18:31:45 South Africa Standard Time : Information : Disposing ServiceBroker server '/Users/noah/.ServiceHub/b60e070f5b/bebc7d2cce'.
+05/14/2024 18:31:45 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":1,"runtime":2,"runtimeVersion":"8.0.4"}}]}
+05/14/2024 18:31:45 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+05/14/2024 18:31:45 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:45 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"e8e10477-585a-419f-a7f7-247a7e5d9d76","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/02aea2f5ee4a47369ff81ddee8321384"}}
+05/14/2024 18:31:58 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 197
+
+{"jsonrpc":"2.0","id":8,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.NoDelay.EnvironmentService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:58 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":8,"result":{"requestId":"e0919086-1670-422f-b879-7ef9af93e2a1","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/5e06b0d61dff451fac6f5fbbf923ffe7"}}
+05/14/2024 18:31:58 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 202
+
+{"jsonrpc":"2.0","id":9,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.LanguageServices.WorkspaceProjectFactoryService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:58 South Africa Standard Time : Information : VsHubClient-hubController write: Content-Length: 1456
+
+{"jsonrpc":"2.0","id":10,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64\",\"entryPoint\":{\"assemblyPath\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.ProjectInitializationStatusServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/noah/.ServiceHub/b60e070f5b/f2415a4304"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+05/14/2024 18:31:58 South Africa Standard Time : Information : VsHubClient-hubController read: Content-Length: 162
+
+{"jsonrpc":"2.0","id":10,"result":{"RequestId":"dbf9c07e-b67c-4616-b48f-8af9d57f2ada","PipeName":"/Users/noah/.ServiceHub/b60e070f5b/681ed7ebb0","IsEmpty":false}}
+05/14/2024 18:31:58 South Africa Standard Time : Information : Disposing ServiceBroker server '/Users/noah/.ServiceHub/b60e070f5b/f2415a4304'.
+05/14/2024 18:31:58 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":1,"runtime":2,"runtimeVersion":"8.0.4"}}]}
+05/14/2024 18:31:58 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+05/14/2024 18:31:58 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:31:58 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"61d9c1e3-d134-423b-8d5b-24eba3b497ad","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/56e1a5d4dbd34b0f9700cfa4d8f9c9dc"}}
+05/14/2024 18:31:59 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":9,"result":{"requestId":"4c46360c-e632-4bf1-8b35-809ee3537a37","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/c244e8fd5b8643a894e5803a8b43a935"}}
+05/14/2024 18:32:10 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 199
+
+{"jsonrpc":"2.0","id":10,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.NuGetSolutionRestoreService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:32:10 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 182
+
+{"jsonrpc":"2.0","id":10,"result":{"requestId":"20744286-50ce-45be-a40a-04f26403539a","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/7dfb519f83de406fa0c26fd3b14d4be6"}}
+05/14/2024 18:32:12 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 250
+
+{"jsonrpc":"2.0","id":11,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.LogOutputChannelService","version":"0.1"},{"activationArguments":{"outputChannelName":"Projects"},"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+05/14/2024 18:32:12 South Africa Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 182
+
+{"jsonrpc":"2.0","id":11,"result":{"requestId":"fd2112c6-941e-4d8a-94cb-bfb613d49c2b","pipeName":"/var/folders/5m/7l4_pv1x2kj2xq5ph43b136c0000gp/T/6f0f121b04c249c0ae521479a13440a1"}}
+05/14/2024 18:33:07 South Africa Standard Time : Information : VsHubClient-hubController write: Content-Length: 1388
+
+{"jsonrpc":"2.0","id":11,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceModuleInfo_Microsoft.VisualStudio.LaunchConfigurationService":"{\"name\":null,\"host\":\"dotnet.projectSystem\",\"hostId\":\"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE\",\"serviceBaseDirectory\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64\",\"entryPoint\":{\"assemblyPath\":\"/Users/noah/.vscode/extensions/ms-dotnettools.csdevkit-1.5.20-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll\",\"fullClassName\":\"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory\",\"scriptPath\":null,\"constructorFunction\":null,\"configPath\":null,\"appBasePath\":null,\"assemblySearchPathsConfig\":null},\"hostGroupAllowed\":null,\"hostGroupId\":null,\"serviceOverride\":null,\"singleDomainLoaderOptimization\":null,\"versionRange\":null,\"friendServices\":null}","__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/noah/.ServiceHub/b60e070f5b/646f1a19b7"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+05/14/2024 18:33:07 South Africa Standard Time : Information : VsHubClient-hubController write: Content-Length: 63
+
+{"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":11}}
+05/14/2024 18:33:07 South Africa Standard Time : Information : VsHubClient-hubController JSON RPC has been disposed
+05/14/2024 18:33:07 South Africa Standard Time : Information : VsHubClient-hubController read: end of stream
+05/14/2024 18:33:07 South Africa Standard Time : Information : Task 'RequestServiceChannelAsync-Microsoft.VisualStudio.LaunchConfigurationService' failed after iteration 1
+05/14/2024 18:33:07 South Africa Standard Time : Error : System.ObjectDisposedException: The CancellationTokenSource has been disposed. HResult='-2146232798' 
+   at System.Threading.CancellationTokenSource.get_Token()
+   at Microsoft.ServiceHub.Client.HubClient.GetLocationServiceWithRetriesAsync()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.ServiceHub.Client.HubClient.RemoteServiceBrokerWrapper.<>c__DisplayClass9_0.<<RequestServiceChannelAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.ServiceHub.Utility.Shared.ServiceHubRetry.ExecuteAsync[TReturnType](Func`1 actionToExecute, TraceSource logger, ServiceHubRetryConfiguration`1 serviceHubRetryConfiguration, CancellationToken cancellationToken)
+05/14/2024 18:33:07 South Africa Standard Time : Information : Disposing ServiceBroker server '/Users/noah/.ServiceHub/b60e070f5b/646f1a19b7'.
+05/14/2024 18:33:07 South Africa Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer read: end of stream

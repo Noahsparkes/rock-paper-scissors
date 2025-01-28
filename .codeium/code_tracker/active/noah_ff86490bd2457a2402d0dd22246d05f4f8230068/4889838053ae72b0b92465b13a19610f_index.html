@@ -1,0 +1,80 @@
+
+4/Users/noah/rock-paper-scissors/templates/index.html×<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="choices">
+            <button onclick="playGame('rock')">Rock</button>
+            <button onclick="playGame('paper')">Paper</button>
+            <button onclick="playGame('scissors')">Scissors</button>
+        </div>
+        <div id="result" class="result">
+            <p id="player-choice"></p>
+            <p id="computer-choice"></p>
+            <p id="game-result"></p>
+        </div>
+    </div>
+
+    <script>
+        async function playGame(playerChoice) {
+            const response = await fetch('/play', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ choice: playerChoice })
+            });
+            
+            const data = await response.json();
+            
+            document.getElementById('player-choice').textContent = `Your Choice: ${data.player_choice}`;
+            document.getElementById('computer-choice').textContent = `Computer Choice: ${data.computer_choice}`;
+            document.getElementById('game-result').textContent = `Result: ${data.result}`;
+        }
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <h1>Rock, Paper, Scissors</h1>
+    <div>
+        <button onclick="playGame('rock')">Rock</button>
+        <button onclick="playGame('paper')">Paper</button>
+        <button onclick="playGame('scissors')">Scissors</button>
+    </div>
+    <div id="result"></div>
+
+    <script>
+        async function playGame(choice) {
+            const response = await fetch('/play', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ choice })
+            });
+            
+            const result = await response.json();
+            document.getElementById('result').innerHTML = `
+                <p>Player: ${result.player_choice}</p>
+                <p>Computer: ${result.computer_choice}</p>
+                <p>Result: ${result.result}</p>
+                <p>Score - You: ${result.score.player}, Computer: ${result.score.computer}, Ties: ${result.score.ties}</p>
+            `;
+        }
+    </script>
+</body>
+</html>
+©©««×"(ff86490bd2457a2402d0dd22246d05f4f8230068*/Users/noah2;file:///Users/noah/rock-paper-scissors/templates/index.html:file:///Users/noah

@@ -1,0 +1,10 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Noah19-cell
+	email = 103570425+Noah19-cell@users.noreply.github.com
+[http]
+	postBuffer = 157286400
